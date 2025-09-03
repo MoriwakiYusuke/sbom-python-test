@@ -183,9 +183,9 @@
     },
     {
       "externalIdentifierType": "purl",
-      "identifier": "pkg:swid/Moriwaki%20Y/github.com/my-simple-python-app@1.0.0?tag_id=a338525d-46dc-462c-a552-930af5266b6e",
+      "identifier": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=194ee6d0-fe12-4c9f-8ff0-9165c89a3709",
       "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-ExternalIdentifier-A10C361F869C48F343C26D123762E7E201A582C8428E1333845465D41FC4828D",
+      "spdxId": "SPDXRef-ExternalIdentifier-0C06010423062B1073A6EF97386C24D8055F380B559DC1513DB12E2C18F49C6F",
       "type": "ExternalIdentifier"
     },
     {
@@ -195,13 +195,13 @@
       "type": "Organization"
     },
     {
-      "name": "my-simple-python-app",
+      "name": "sbom-python-test",
       "software_copyrightText": "NOASSERTION",
       "software_downloadLocation": "NOASSERTION",
       "software_packageVersion": "1.0.0",
       "creationInfo": "_:creationinfo",
       "externalIdentifier": [
-        "SPDXRef-ExternalIdentifier-A10C361F869C48F343C26D123762E7E201A582C8428E1333845465D41FC4828D"
+        "SPDXRef-ExternalIdentifier-0C06010423062B1073A6EF97386C24D8055F380B559DC1513DB12E2C18F49C6F"
       ],
       "spdxId": "SPDXRef-RootPackage",
       "verifiedUsing": [
@@ -243,7 +243,7 @@
     },
     {
       "@id": "_:creationinfo",
-      "created": "2025-09-03T18:06:18Z",
+      "created": "2025-09-03T18:09:56Z",
       "createdBy": [
         "SPDXRef-Organization-B6CD4F1B846BC912F260C7742AE9592DC7232E888A7D9737AE368B5A7098EEAD"
       ],
@@ -264,7 +264,7 @@
     {
       "dataLicense": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
       "namespaceMap": {
-        "sbom": "https://github.com/MoriwakiYusuke/sbom-python-test/my-simple-python-app/1.0.0/VywbV8IZFkmF6As-Yc-40A"
+        "sbom": "https://github.com/MoriwakiYusuke/sbom-python-test/sbom-python-test/1.0.0/CnUMhq3tSka--cBGTd1JZQ"
       },
       "profileConformance": [
         "software",
@@ -272,18 +272,18 @@
         "simpleLicensing"
       ],
       "creationInfo": "_:creationinfo",
-      "name": "my-simple-python-app 1.0.0",
-      "spdxId": "SPDXRef-SpdxDocument-DDA37E52D5D00E794DC3D358BBB30C33AB7952810B1672D85DAAADD749817B74",
+      "name": "sbom-python-test 1.0.0",
+      "spdxId": "SPDXRef-SpdxDocument-F1455B9A44A509AF6A9BC15D2D532FB45ED8780B52B1D7925A15983BAF5725F4",
       "type": "SpdxDocument"
     },
     {
       "from": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
       "relationshipType": "HAS_DECLARED_LICENSE",
       "to": [
-        "SPDXRef-SpdxDocument-DDA37E52D5D00E794DC3D358BBB30C33AB7952810B1672D85DAAADD749817B74"
+        "SPDXRef-SpdxDocument-F1455B9A44A509AF6A9BC15D2D532FB45ED8780B52B1D7925A15983BAF5725F4"
       ],
       "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-A4CECB0000838B2DAA1FFB898F6071491B20142E42F27FB456709981B97F0290",
+      "spdxId": "SPDXRef-Relationship-68B06378785A5DE52307400295DEE8C666E88A6306966BBCAA1F45422ACA9606",
       "type": "Relationship"
     },
     {
@@ -312,6 +312,16 @@
       "type": "Relationship"
     },
     {
+      "from": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "to": [
+        "SPDXRef-RootPackage"
+      ],
+      "creationInfo": "_:creationinfo",
+      "spdxId": "SPDXRef-Relationship-DA0DB5678F61CCE687901C5BC4C5F6A707FE56B7091631BE2598C4926C78BDBB",
+      "type": "Relationship"
+    },
+    {
       "from": "SPDXRef-RootPackage",
       "relationshipType": "DEPENDS_ON",
       "to": [
@@ -329,16 +339,6 @@
       ],
       "creationInfo": "_:creationinfo",
       "spdxId": "SPDXRef-Relationship-DB34572DB0573A20A6482FB00FA84F8907FEFD1A1CBA9CA535B27F9500EAD3D9",
-      "type": "Relationship"
-    },
-    {
-      "from": "SPDXRef-DOCUMENT",
-      "relationshipType": "DESCRIBES",
-      "to": [
-        "SPDXRef-RootPackage"
-      ],
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-DA0DB5678F61CCE687901C5BC4C5F6A707FE56B7091631BE2598C4926C78BDBB",
       "type": "Relationship"
     },
     {

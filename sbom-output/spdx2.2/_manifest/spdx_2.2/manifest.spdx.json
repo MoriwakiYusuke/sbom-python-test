@@ -58,7 +58,7 @@
       "supplier": "NOASSERTION"
     },
     {
-      "name": "my-simple-python-app",
+      "name": "sbom-python-test",
       "SPDXID": "SPDXRef-RootPackage",
       "downloadLocation": "NOASSERTION",
       "packageVerificationCode": {
@@ -76,7 +76,7 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/my-simple-python-app@1.0.0?tag_id=49db2119-5b13-439a-95af-09529dd19992"
+          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=5855c54b-f577-4d55-a578-cc87f05bcc5c"
         }
       ],
       "supplier": "Organization: Moriwaki Y",
@@ -106,10 +106,10 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "name": "my-simple-python-app 1.0.0",
-  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-python-test/my-simple-python-app/1.0.0/MlT_7cIKSEyAoIdXGY9_Bw",
+  "name": "sbom-python-test 1.0.0",
+  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-python-test/sbom-python-test/1.0.0/SDwaRj53Rk6BzK3ixxD-dg",
   "creationInfo": {
-    "created": "2025-09-03T18:03:50Z",
+    "created": "2025-09-03T18:11:47Z",
     "creators": [
       "Organization: Moriwaki Y",
       "Tool: Microsoft.SBOMTool-4.1.1"
