@@ -1,8 +1,3 @@
-はい、承知しました。
-プロジェクトの目的や使い方をまとめた`README.md`ファイルを作成します。
-
-\<immersive type="text/markdown" title="README.md"\>
-
 # Python SBOM 生成テスト環境
 
 ## 概要
@@ -74,7 +69,3 @@ sbom-tool generate \
 ## 生成されるファイル
 
 コマンドが成功すると,`sbom-output/_manifest/`ディレクトリの中にSPDX形式のSBOMファイルが生成されます.
-
-\</immersive\>
-
-この`README.md`をプロジェクトのルートに保存すれば,他の人がこのプロジェクトを使う際に役立ちます.
