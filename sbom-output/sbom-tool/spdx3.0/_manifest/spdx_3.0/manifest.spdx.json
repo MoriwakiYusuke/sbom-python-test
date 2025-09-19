@@ -4,55 +4,6 @@
   ],
   "@graph": [
     {
-      "name": "./../sbom-output/spdx2.2/_manifest/spdx_2.2/manifest.spdx.json",
-      "software_copyrightText": "NOASSERTION",
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-File--..-sbom-output-spdx2.2--manifest-spdx-2.2-manifest.spdx.json-A145DFCD8F9D4DD7AB9C7211819194C4B6A29951",
-      "verifiedUsing": [
-        {
-          "algorithm": "sha256",
-          "hashValue": "c727e109ac6b2e23a6bb903f69e44229b860131cfc6ed4a47333951e73d9829d",
-          "creationInfo": "_:creationinfo",
-          "spdxId": "SPDXRef-PackageVerificationCode-5D5B09F6DCB2D53A5FFFC60C4AC0D55FABDF556069D6631545F42AA6E3500F2E",
-          "type": "PackageVerificationCode"
-        },
-        {
-          "algorithm": "sha1",
-          "hashValue": "a145dfcd8f9d4dd7ab9c7211819194c4b6a29951",
-          "creationInfo": "_:creationinfo",
-          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
-          "type": "PackageVerificationCode"
-        }
-      ],
-      "type": "software_File"
-    },
-    {
-      "creationInfo": "_:creationinfo",
-      "name": "NOASSERTION",
-      "spdxId": "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969",
-      "type": "Element"
-    },
-    {
-      "from": "SPDXRef-File--..-sbom-output-spdx2.2--manifest-spdx-2.2-manifest.spdx.json-A145DFCD8F9D4DD7AB9C7211819194C4B6A29951",
-      "relationshipType": "HAS_CONCLUDED_LICENSE",
-      "to": [
-        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
-      ],
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-D1FABC13284D44E6B8A37DF9D62CCD2027A9D934CA6188BBDB86118AE9EBD40B",
-      "type": "Relationship"
-    },
-    {
-      "from": "SPDXRef-File--..-sbom-output-spdx2.2--manifest-spdx-2.2-manifest.spdx.json-A145DFCD8F9D4DD7AB9C7211819194C4B6A29951",
-      "relationshipType": "HAS_DECLARED_LICENSE",
-      "to": [
-        "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969"
-      ],
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-DFE697BF7C0CADE2421855C255365BD3D4AFFF6C79C1D124DAE49877BD82B174",
-      "type": "Relationship"
-    },
-    {
       "name": "./main.py",
       "software_copyrightText": "NOASSERTION",
       "creationInfo": "_:creationinfo",
@@ -74,6 +25,12 @@
         }
       ],
       "type": "software_File"
+    },
+    {
+      "creationInfo": "_:creationinfo",
+      "name": "NOASSERTION",
+      "spdxId": "SPDXRef-Element-8560FC6692684D8DF52223FF78E30B9630A1CF5A6FA371AAE24FCA896AE20969",
+      "type": "Element"
     },
     {
       "from": "SPDXRef-File--main.py-5DEFF20A435A3B7F20020CAB12E32504C3138134",
@@ -183,9 +140,9 @@
     },
     {
       "externalIdentifierType": "purl",
-      "identifier": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=194ee6d0-fe12-4c9f-8ff0-9165c89a3709",
+      "identifier": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=ad389277-6e5c-4e35-b1ff-7931bec78c00",
       "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-ExternalIdentifier-0C06010423062B1073A6EF97386C24D8055F380B559DC1513DB12E2C18F49C6F",
+      "spdxId": "SPDXRef-ExternalIdentifier-DF8685B29A06C851F64139F716ABDE196D53BA97370AE0B050D216C665BD0E3E",
       "type": "ExternalIdentifier"
     },
     {
@@ -201,13 +158,13 @@
       "software_packageVersion": "1.0.0",
       "creationInfo": "_:creationinfo",
       "externalIdentifier": [
-        "SPDXRef-ExternalIdentifier-0C06010423062B1073A6EF97386C24D8055F380B559DC1513DB12E2C18F49C6F"
+        "SPDXRef-ExternalIdentifier-DF8685B29A06C851F64139F716ABDE196D53BA97370AE0B050D216C665BD0E3E"
       ],
       "spdxId": "SPDXRef-RootPackage",
       "verifiedUsing": [
         {
           "algorithm": "sha1",
-          "hashValue": "3cfac83b2cbb60eb439fcc8733ffd8c17c70cb0b",
+          "hashValue": "ffb9d4ac5e06d5ea67283383edb9b0063796ad47",
           "creationInfo": "_:creationinfo",
           "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
           "type": "PackageVerificationCode"
@@ -243,7 +200,7 @@
     },
     {
       "@id": "_:creationinfo",
-      "created": "2025-09-03T18:09:56Z",
+      "created": "2025-09-05T02:50:39Z",
       "createdBy": [
         "SPDXRef-Organization-B6CD4F1B846BC912F260C7742AE9592DC7232E888A7D9737AE368B5A7098EEAD"
       ],
@@ -264,7 +221,7 @@
     {
       "dataLicense": "SPDXRef-AnyLicenseInfo-6E237C55B0583CB7BBA05562316C54B0A105ABA04775017E2253237B9A64613C",
       "namespaceMap": {
-        "sbom": "https://github.com/MoriwakiYusuke/sbom-python-test/sbom-python-test/1.0.0/CnUMhq3tSka--cBGTd1JZQ"
+        "sbom": "https://github.com/MoriwakiYusuke/sbom-python-test/1.0.0/smPsGzwSbECkdf8FITGW_w"
       },
       "profileConformance": [
         "software",
@@ -287,31 +244,6 @@
       "type": "Relationship"
     },
     {
-      "externalSpdxId": "https://github.com/MoriwakiYusuke/sbom-python-test/my-simple-python-app/1.0.0/MlT_7cIKSEyAoIdXGY9_Bw",
-      "creationInfo": "_:creationinfo",
-      "spdxId": "DocumentRef-my-simple-python-app-1.0.0-a145dfcd8f9d4dd7ab9c7211819194c4b6a29951",
-      "verifiedUsing": [
-        {
-          "algorithm": "sha1",
-          "hashValue": "a145dfcd8f9d4dd7ab9c7211819194c4b6a29951",
-          "creationInfo": "_:creationinfo",
-          "spdxId": "SPDXRef-PackageVerificationCode-B1565820A5CDAC40E0520D23F9D0B1497F240DDC51D72EAC6423D97D952D444F",
-          "type": "PackageVerificationCode"
-        }
-      ],
-      "type": "ExternalMap"
-    },
-    {
-      "from": "SPDXRef-DOCUMENT",
-      "relationshipType": "DESCRIBES",
-      "to": [
-        "SPDXRef-File--..-sbom-output-spdx2.2--manifest-spdx-2.2-manifest.spdx.json-A145DFCD8F9D4DD7AB9C7211819194C4B6A29951"
-      ],
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-6096A8C918B4C34070D1E64D378CE02CEA2016E9544A99F0846108B622CEFBA0",
-      "type": "Relationship"
-    },
-    {
       "from": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
       "to": [
@@ -325,16 +257,6 @@
       "from": "SPDXRef-RootPackage",
       "relationshipType": "DEPENDS_ON",
       "to": [
-        "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3"
-      ],
-      "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-BAFF71160AD7B81B458BF6D436897B05ABE00F2CA4A4D3BDD083310F761D6395",
-      "type": "Relationship"
-    },
-    {
-      "from": "SPDXRef-RootPackage",
-      "relationshipType": "DEPENDS_ON",
-      "to": [
         "SPDXRef-Package-D4A1AC07C438229E2AF005F1545B067AD2A823263A8DAB7F04F325B39A2926C2"
       ],
       "creationInfo": "_:creationinfo",
@@ -342,13 +264,13 @@
       "type": "Relationship"
     },
     {
-      "from": "DocumentRef-my-simple-python-app-1.0.0-a145dfcd8f9d4dd7ab9c7211819194c4b6a29951:SPDXRef-RootPackage",
-      "relationshipType": "HAS_PREREQUISITE",
+      "from": "SPDXRef-RootPackage",
+      "relationshipType": "DEPENDS_ON",
       "to": [
-        "SPDXRef-RootPackage"
+        "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3"
       ],
       "creationInfo": "_:creationinfo",
-      "spdxId": "SPDXRef-Relationship-7E8C05059D06DE725B9D283BDB38AC26A9A584641917257425FB5E646713FBCC",
+      "spdxId": "SPDXRef-Relationship-BAFF71160AD7B81B458BF6D436897B05ABE00F2CA4A4D3BDD083310F761D6395",
       "type": "Relationship"
     }
   ]
