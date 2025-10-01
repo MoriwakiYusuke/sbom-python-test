@@ -22,24 +22,6 @@
   ],
   "packages": [
     {
-      "name": "colorama",
-      "SPDXID": "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
-      "licenseDeclared": "NOASSERTION",
-      "copyrightText": "NOASSERTION",
-      "versionInfo": "0.4.6",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceType": "purl",
-          "referenceLocator": "pkg:pypi/colorama@0.4.6"
-        }
-      ],
-      "supplier": "NOASSERTION"
-    },
-    {
       "name": "pyfiglet",
       "SPDXID": "SPDXRef-Package-D4A1AC07C438229E2AF005F1545B067AD2A823263A8DAB7F04F325B39A2926C2",
       "downloadLocation": "NOASSERTION",
@@ -53,6 +35,24 @@
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
           "referenceLocator": "pkg:pypi/pyfiglet@1.0.4"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "colorama",
+      "SPDXID": "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "0.4.6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/colorama@0.4.6"
         }
       ],
       "supplier": "NOASSERTION"
@@ -76,7 +76,7 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceType": "purl",
-          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=e4c35a51-054f-4954-acd7-7fa350ce9509"
+          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/sbom-python-test@1.0.0?tag_id=1414a516-1926-46a8-bb92-94d701621ce3"
         }
       ],
       "supplier": "Organization: Moriwaki Y",
@@ -88,14 +88,14 @@
   "externalDocumentRefs": [],
   "relationships": [
     {
-      "relationshipType": "DEPENDS_ON",
-      "relatedSpdxElement": "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3",
-      "spdxElementId": "SPDXRef-RootPackage"
-    },
-    {
       "relationshipType": "DESCRIBES",
       "relatedSpdxElement": "SPDXRef-RootPackage",
       "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-1C965D0DC1AC3A7595E8794C73336CB9E8E3EAD3BF00214FE42EB1306EE5F3D3",
+      "spdxElementId": "SPDXRef-RootPackage"
     },
     {
       "relationshipType": "DEPENDS_ON",
@@ -107,9 +107,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "sbom-python-test 1.0.0",
-  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-python-test/1.0.0/3J89B1fPh02_hlWuLNrWHg",
+  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-python-test/1.0.0/NQ6uH3NduU2GiPRxpGFLmQ",
   "creationInfo": {
-    "created": "2025-09-04T17:27:23Z",
+    "created": "2025-10-01T09:20:00Z",
     "creators": [
       "Organization: Moriwaki Y",
       "Tool: Microsoft.SBOMTool-4.1.1"
