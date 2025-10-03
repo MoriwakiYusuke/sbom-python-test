@@ -1,0 +1,79 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.MoriwakiYusuke/sbom-python-test",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/9b312e1d-9ce4-4b40-8a2e-53a998ec878b",
+    "creationInfo": {
+        "creators": [
+            "Tool: protobom-v0.0.0-20250919084336-6301d6fbb0b9+dirty",
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "created": "2025-09-19T17:22:01Z"
+    },
+    "packages": [
+        {
+            "name": "colorama",
+            "SPDXID": "SPDXRef-pypi-colorama-0.4.6-75c946",
+            "versionInfo": "0.4.6",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "Copyright (c) 2010 Jonathan Hartley, Copyright Jonathan Hartley \u0026 Arnon Yaari, 2013-2020, Copyright Jonathan Hartley 2013",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/colorama@0.4.6"
+                }
+            ]
+        },
+        {
+            "name": "pyfiglet",
+            "SPDXID": "SPDXRef-pypi-pyfiglet-1.0.4-75c946",
+            "versionInfo": "1.0.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "LicenseRef-scancode-public-domain AND MIT",
+            "copyrightText": "(c) 1994 by Victor Parada (vparada@inf.utfsm.cl), (c) Copyright Bigelow \u0026 Holmes 1986, 1985, (c) COPYRIGHTS MMIV, (c) Michel Eftimakis 1995, Copyright (c) 1984, 1987 Adobe Systems Incorporated, Copyright (c) 1984,1987 Adobe Systems, Inc., Copyright (c) 1988, 1991 Digital Equipment Corporation, Copyright (c) 1989 X Consortium, Copyright (c) 1989, 1991 Adobe Systems Incorporated, Copyright (c) 1991 X Consortium, Copyright (c) 1991, 1993, 1994 Glenn Chappell and Ian Chai, Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001 John Cowan, Copyright (c) 2000 Michael Hamm, Copyright (c) 2002 Christiaan Keet, Copyright (c) 2007-2018 Christopher Jones \u003ccjones@insub.org\u003e Stefano Rivera \u003cstefano@rivera.za.net\u003e, Copyright (c) 2007-2023 Christopher Jones \u003ccjones@insub.org\u003e, Copyright (c) 2008 Francesco Poli, Copyright (c) 2011 Claudio Matsuoka, Copyright 1984-1989, 1994 Adobe Systems Incorporated, Copyright 1987 by Bitstream Inc. Charter Registered, Copyright 1988 Bitstream, Inc., Cambridge, Massachusetts, USA COMMENT Bitstream and Charter, Copyright 1988, 1994 Digital Equipment Corporation, Copyright 1989 by Cognition Corp, Copyright 1989 Cognition Corp., Copyright 1989 Dale Schumacher, Copyright 1989 Dale Schumacher, dal@syntel.mn.org, Copyright 1989 X Consortium, Copyright 1991 X Consortium, copyright 1993, RSA Laboratories Specifically, Copyright 1996, 1997 by John Cowan and Paul Burton, Copyright Bigelow \u0026 Holmes 1986, 1985, Portions Copyright 1988 Digital Equipment Corp, Portions Copyright 1991, 1993, 1994 by Glenn Chappell and Ian Chai",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/pyfiglet@1.0.4"
+                }
+            ]
+        },
+        {
+            "name": "com.github.MoriwakiYusuke/sbom-python-test",
+            "SPDXID": "SPDXRef-github-MoriwakiYusuke-sbom-python-test-main-854ef6",
+            "versionInfo": "main",
+            "downloadLocation": "git+https://github.com/MoriwakiYusuke/sbom-python-test",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/MoriwakiYusuke/sbom-python-test@main"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-github-MoriwakiYusuke-sbom-python-test-main-854ef6",
+            "relatedSpdxElement": "SPDXRef-pypi-colorama-0.4.6-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-MoriwakiYusuke-sbom-python-test-main-854ef6",
+            "relatedSpdxElement": "SPDXRef-pypi-pyfiglet-1.0.4-75c946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-github-MoriwakiYusuke-sbom-python-test-main-854ef6",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
