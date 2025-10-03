@@ -6,6 +6,12 @@
 
 依存関係が少ない2つのシンプルなライブラリ (`colorama` と `pyfiglet`) を利用し,各ツールで生成されるSBOMにパッケージ依存関係がどのように記録されるかを確認することを目的としています.
 
+## validate-test ブランチの目的
+
+このブランチ (`validate-test`) は,生成されたSBOMが妥当であるかを検証するテストを追加することを目的としています.
+
+具体的には, `src/_manifest/spdx_2.2/manifest.spdx.json` に格納されたSPDX形式のSBOMを読み込み, その内容が期待通りであるかを確認するテストコードを実装します.
+
 ## ディレクトリ構成
 
 ```
@@ -15,7 +21,11 @@
 │   ├── sbom-tool/            # sbom-toolの出力
 │   └── syft/                 # syftの出力
 ├── src/
-│   └── main.py               # サンプルスクリプト
+│   ├── main.py               # サンプルスクリプト
+│   └── _manifest/
+│       └── spdx_2.2/
+│           ├── manifest.spdx.json
+│           └── manifest.spdx.json.sha256
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -88,7 +98,7 @@ sbom-tool generate \
 以下のコマンドを実行して,SPDX-JSON形式のSBOMを生成します.
 
 ```bash
-syft dir:./ --exclude './venv/**' -o spdx-json > sbom.json
+syft dir:./ --exclude "./venv/**" -o spdx-json > sbom.json
 ```
 
 ## 生成されるファイル
